@@ -28,7 +28,7 @@ def process_row(row):
 
 
 def multiproc():
-# Open the CSV file containing the event data
+    # Open the CSV file containing the event data
     with open('event_data.csv', 'r') as csvfile:
         reader = csv.DictReader(csvfile)
         rows = list(reader)
